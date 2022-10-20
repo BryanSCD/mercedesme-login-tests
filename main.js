@@ -23,7 +23,7 @@ app.get("/mercedeso2c", (req, res) => {
       throw new Error(`${req.query.error}:${req.query.error_description}`)
 
     /*
-      Gets a token for the session. This I suppose should be in front end, becose it also saves the token.
+      Gets a token for the session. This I suppose should be in front end, because it also saves the token.
     */
     mercedesOAuth.getToken(authCode, (v) => {
       res.send("Succesfully logged in!");
@@ -35,7 +35,7 @@ app.get("/mercedeso2c", (req, res) => {
 app.listen(3000);
 
 /*
-  Front-end part, for testing purposes this 
+  Front-end part, for testing purposes.
 */
 
 open(mercedesOAuth.getAuthorizeUrl());
