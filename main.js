@@ -16,7 +16,7 @@ app.get("/mercedeso2c", (req, res) => {
   */
   try{
     /*
-      If the petition was correct, an authorization code should have been gived.
+      If the petition was correct, an authorization code should have been given.
     */
     const authCode=req.query.code;
     if(!authCode)
