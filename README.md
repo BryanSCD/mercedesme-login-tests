@@ -6,10 +6,13 @@ To make this project works is simple:
 
 1. Clone the repository.
 2. Npm install
-3. Create a config file. Example (from ashishtank project):
- config: {
+3. Create a config file. Example (part from ashishtank project):
+
+````javascript
+      config: {
               client_id: '8cebe85d-ca20-486d-ad5f-cf25cae61eeb',
               client_secret: 'VvzJfpOLTZkByzOAqvMcIobgswYulbOeDuTkmhDHAwVjMAOENBGiEkrGWXKkrtYv',
               ...
- }
+      }
+````
 4. Execute
