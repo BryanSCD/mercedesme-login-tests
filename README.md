@@ -6,7 +6,7 @@ To make this project works is simple:
 
 1. Clone the repository.
 2. Npm install
-3. Create a config file. Example (part from ashishtank project):
+3. Create a config file in the main folder. Example (part from ashishtank project):
 
 ````javascript
       config: {
