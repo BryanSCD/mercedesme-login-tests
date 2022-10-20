@@ -1,0 +1,16 @@
+{
+  "name": "mercedesme-login-tests",
+  "version": "1.0.0",
+  "description": "This project tries to understand how mercedes oauth works",
+  "main": "index.js",
+  "scripts": {
+    "start": "node main"
+  },
+  "author": "Bryan Smith Collazos Duran",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "open": "^8.4.0",
+    "request": "^2.88.0"
+  }
+}
